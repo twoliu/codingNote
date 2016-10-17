@@ -26,4 +26,11 @@
 
 		11. git rm XXX 删除文件  
 
-		12. 
+		12.  添加远程库关联 
+			 git remote add origin https://XXX   添加远程仓库的关联  origin代表的是远程仓库的意思
+
+		13. 推送本地文件到远程仓库
+			git  push  -u origin master   第一次推送本地master到远程的master
+			之后推送就可以直接使用  git push origin master
+
+		14. git clone  克隆项目到本地
