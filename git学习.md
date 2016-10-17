@@ -34,3 +34,23 @@
 			之后推送就可以直接使用  git push origin master
 
 		14. git clone  克隆项目到本地
+
+		15.  git branch XXX  新建分支	
+			git checkout XXX 切换到分支 [git checkout -b XXX 相当于该两个命令联合]
+			git branch -d XXX 删除某一分支 
+			git merge XXX  合并某一个分支到master  [默认强制合并]
+			git merge --no-f -m 'XXXX'  分支    这里用普通合并[可以看出merge的历史]
+
+			
+		16. git stash 临时储藏当前的状态
+		      git stash list   常看临时列表  
+		      git  stash pop XXX 回到某种临时状态(根据id)
+
+
+
+		17. git remote 查看远程仓库信息
+			git remote -v  查看远程仓库 详细信息
+
+		18. git pull 从服务器拉去最新的代码
+
+		
