@@ -120,3 +120,7 @@
 	复制
 	cp -rf src des 复制文件夹 
 	cp src des    复制文件
+
+
+	查看网络端口
+	netstat -anp | grep "端口号"
